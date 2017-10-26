@@ -5,7 +5,7 @@ package lab3;
  * @author cainebourne
  */
 public class NameFormatException extends IllegalArgumentException {
-    private static String errMsg = "You did not provide a legal format for the Name";
+    private static String errMsg = "Please provide a valid format for the Name";
 
     public NameFormatException() {
         super(errMsg);
